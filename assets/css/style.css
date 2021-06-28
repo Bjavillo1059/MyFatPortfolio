@@ -31,10 +31,6 @@ header h1 {
   color: var(--color-3);
 }
 
-header h1 span {
-  color: var(--color);
-}
-
 header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -173,18 +169,5 @@ footer h1 {
 @media screen and (max-width: 992px) {
   header {
     background: #270f0c;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  body {
-    background-color: #324cc0;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .content {
-    background-color: #112538;
   }
 }
