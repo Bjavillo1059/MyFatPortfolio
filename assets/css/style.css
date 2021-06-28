@@ -169,3 +169,22 @@ footer {
 footer h1 {
   font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #270f0c;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #324cc0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .content {
+    background-color: #112538;
+  }
+}
