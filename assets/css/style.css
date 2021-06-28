@@ -173,3 +173,9 @@ footer {
 footer h1 {
   font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+  header, body {
+    padding: 1rem 3rem;
+  }  
+}
